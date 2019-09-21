@@ -1,3 +1,11 @@
+/* Note to the auditing team, the display of
+calculator in the project and the freeCodeCamp
+sample project may look similar, that is because
+while keeping the color scheme same, I have redone
+the layout in CSS Grid (and as you can see, some 
+parts are not proper). I hope that this means
+no plagarism? If so, please contact me. Thank you */
+
 import React from 'react';
 import './App.css';
 
@@ -79,7 +87,7 @@ class App extends React.Component {
 
     // https://www.geeksforgeeks.org/round-off-a-number-upto-2-decimal-place-using-javascript/
     // Method 2
-    let result = Math.round(eval(expression) * 1000000000000) / 1000000000000;
+    let result = Math.round(eval(expression) * 100000000000) / 100000000000;
     this.setState(state => ({
       currentValue: result.toString(),
       previousValue: state.currentValue,
@@ -207,7 +215,6 @@ class App extends React.Component {
     const script = document.createElement('script');
     script.src =
       'https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js';
-    script.async = 'true';
     document.body.appendChild(script);
   }
 
