@@ -1,7 +1,7 @@
-/* Note to the auditing team, the display of
-calculator in the project and the freeCodeCamp
-sample project may look similar, that is because
-while keeping the color scheme same, I have redone
+/* Note to the audit team, the display of
+calculator in the project and the fCC sample
+project may look similar, that is because while
+keeping the color scheme same, I have redone
 the layout in CSS Grid (and as you can see, some 
 parts are not proper). I hope that this means
 no plagarism? If so, please contact me. Thank you */
